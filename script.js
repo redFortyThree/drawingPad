@@ -11,6 +11,6 @@ for (i = 0; i <= 255; i++) {
 
 }
 
-nexBox.addEventListener('mouseenter', changeColor);
+nexBox.addEventListener('pointerenter', changeColor);
 }
 
