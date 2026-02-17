@@ -24,6 +24,9 @@ const resizerButton = document.getElementById('btn');
 function resize() {
    draw.innerHTML = '';
     wide = Number(prompt("how many pixels should be in the box? enter a number..e.g. '100'"));
+    if (wide > 100) {
+         wide = 100;
+    }
    loopEnd = wide * wide;
 draw.style.width = "320px";
    for (i = 1; i <= loopEnd; i++) {
